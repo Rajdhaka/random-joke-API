@@ -13,7 +13,7 @@ public class JokeRepo {
     }
 
     public String findJoke() {
-        int randomNumber= (int) (Math.random() * ((jokes.size() - 1) + 1));
+        int randomNumber= (int) (Math.random() * ((jokes.size() -1) + 1));
         return jokes.get(randomNumber);
     }
 }
