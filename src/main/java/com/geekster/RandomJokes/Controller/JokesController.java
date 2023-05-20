@@ -24,9 +24,4 @@ public class JokesController {
         return jokeService.getJoke();
     }
 
-    @GetMapping(value="/name")
-    public String findJoke(){
-        return "Hello Rajesh";
-    }
-
 }
