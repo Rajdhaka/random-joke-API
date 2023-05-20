@@ -14,7 +14,7 @@ Used annotation @GetMapping , @PostMapping  to map the HTTP web requests to the 
 ### API Reference:
 <br>
 
->Stock API References
+>Joke API References
 <br>
 
 * Add Jokes:
